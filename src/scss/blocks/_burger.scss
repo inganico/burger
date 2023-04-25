@@ -1,0 +1,61 @@
+.burger {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #312F30;
+  
+
+  // .burger__wrap
+
+  &__wrap {
+    padding: 200px 20px 20px 600px;
+    position: relative;
+    min-height: 500px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 499px;
+      height: 549px;
+      display: block;
+      background-image: url('../../img/burger.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 10px;
+    }
+  }
+
+
+
+  &__title {
+    font-size: 44.2px;
+    font-weight: 500;
+    line-height: 51.8px;
+    margin-bottom: 30px;
+  }
+  // .burger__text
+
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin-bottom: 20px;
+  }
+
+  // .burger__price
+
+  &__price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin-bottom: 20px;
+  }
+
+  // .burger__btn
+
+  &__btn {
+  }
+}
+
