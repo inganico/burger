@@ -1,0 +1,125 @@
+.container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  padding: 150px 0;
+
+    &__address-wrap {
+      display: flex;
+      flex-direction: column;
+    }
+
+		&__address {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+
+      & a {
+        font-size: 12px;
+        line-height: 14px;
+        opacity: 0.8;
+        font-style: normal;
+      }
+		}
+
+         // .footer__nav
+        &__nav {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+         // .footer__list
+
+        &__list {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+         // .footer__item
+
+        &__item {
+          display: flex;
+          flex-direction: column;
+          row-gap: 10px;
+          margin-right: 100px;
+          font-size: 12px;
+          line-height: 14px;
+          opacity: 0.8;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+         // .footer__title
+
+        &__title {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+        }
+
+      }
+
+        .social {
+
+          // .social__title
+      
+          &__title {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          margin-bottom: 10px;
+          }
+      
+          // .social__list
+      
+          &__list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between
+          }
+      
+          // .social__item
+      
+          &__item {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 20px;
+            height: 20px;
+      
+            // .social__item_facebook
+      
+            &_facebook {
+              background-image: url('../../img/facebook.svg');
+            }
+      
+            // .social__item_twitter
+      
+            &_twitter {
+              background-image: url("../../img/twitter.svg");
+            }
+      
+            // .social__item_instagram
+      
+            &_instagram {
+              background-image: url("../../img/instagram.svg");
+            }
+      
+            // .social__item_linkedin
+      
+            &_linkedin {
+              background-image: url("../../img/linkedin.svg");
+            }
+          }
+      
+          // .social__link
+      
+          &__link {
+          }
+      }
+      
+

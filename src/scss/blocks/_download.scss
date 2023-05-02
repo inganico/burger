@@ -1,19 +1,24 @@
 .download {
-  padding: 150px 0;
+  background-color: #312F30;
+  padding: 70px 0;
 
   // .download__title
 
   &__wrap {
-    background-color: #312F30;
+    display: flex;
+    justify-content: space-between;
   }
 
   &__title {
-    
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
   }
 
   // .download__btn
 
   &__btn {
+
   }
 }
 
