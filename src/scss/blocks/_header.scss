@@ -106,6 +106,7 @@
   }
 
   &__link {
+    text-transform: uppercase;
 
     @include tablet {
       display: block;
