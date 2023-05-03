@@ -343,7 +343,7 @@ export const server = () => {
     notify: false,
     host: "localhost",
     port: 3001,
-    // tunnel: true,
+    tunnel: true,
     server: {
       baseDir: "dist",
     },
@@ -371,7 +371,7 @@ const develop = (ready) => {
   ready();
 };
 
-export const base = gulp.parallel(html, scss, js, img, svg, webp, avif, copy);
+export const base = gulp.parallel(html, scss, js, img, svg, /*webp, avif,*/ copy);
 
 export const build = gulp.series(clear, base);
 

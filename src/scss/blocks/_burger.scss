@@ -19,7 +19,7 @@
       width: 499px;
       height: 549px;
       display: block;
-      background-image: url('../../img/burger.png');
+      background-image: url('../img/burger.png');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -51,11 +51,6 @@
     font-weight: 400;
     line-height: 18.75px;
     margin-bottom: 20px;
-  }
-
-  // .burger__btn
-
-  &__btn {
   }
 }
 

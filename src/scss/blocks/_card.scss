@@ -43,19 +43,19 @@
   }
 
   .card__item-img-1 {
-    background-image: url('../../img/card1.png');
+    background-image: url('../img/card1.png');
   }
 
   .card__item-img-2 {
-    background-image: url('../../img/card2.png');
+    background-image: url('../img/card2.png');
   }
 
   .card__item-img-3 {
-    background-image: url('../../img/card3.png');
+    background-image: url('../img/card3.png');
   }
 
   .card__item-img-4 {
-    background-image: url('../../img/card4.png');
+    background-image: url('../img/card4.png');
   }
 
   .card__item-flex {
@@ -90,9 +90,5 @@
     margin-bottom: 2px;
   }
 
-  // .card__btn
-
-  &__btn {
-  }
 }
 

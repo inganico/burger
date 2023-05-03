@@ -94,32 +94,28 @@
             // .social__item_facebook
       
             &_facebook {
-              background-image: url('../../img/facebook.svg');
+              background-image: url('../img/facebook.svg');
             }
       
             // .social__item_twitter
       
             &_twitter {
-              background-image: url("../../img/twitter.svg");
+              background-image: url("../img/twitter.svg");
             }
       
             // .social__item_instagram
       
             &_instagram {
-              background-image: url("../../img/instagram.svg");
+              background-image: url("../img/instagram.svg");
             }
       
             // .social__item_linkedin
       
             &_linkedin {
-              background-image: url("../../img/linkedin.svg");
+              background-image: url("../img/linkedin.svg");
             }
           }
       
-          // .social__link
-      
-          &__link {
-          }
       }
       
 
